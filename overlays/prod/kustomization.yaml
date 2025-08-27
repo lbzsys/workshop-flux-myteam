@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+
+namespace: prod
+
+configMapGenerator:
+  - name: html
+    files:
+      - index.html
