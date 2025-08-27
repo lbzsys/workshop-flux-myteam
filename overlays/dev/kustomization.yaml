@@ -1,9 +1,0 @@
-resources:
-  - ../../base
-
-namespace: myteam-dev
-
-configMapGenerator:
-  - name: html
-    files:
-      - index.html
